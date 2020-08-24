@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>中国身份证验证库</Description>
+    <Copyright>1.0.1</Copyright>
+    <Authors>疯哥</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>Chinese.IDCard</PackageId>
+    <PackageIcon>idcard.png</PackageIcon>
+    <FileVersion>1.0.0.1</FileVersion>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="idcard.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
